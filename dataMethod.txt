@@ -1,0 +1,7 @@
+private static void dataAboutYear(int year) {
+        boolean leapYear = isLeapYear(year);
+        int dayCount = dayCount(year);
+        System.out.println("Current year:" + year);
+        System.out.println("Is leap year:" + leapYear);
+        System.out.println("Days in year:" + dayCount);
+    }
