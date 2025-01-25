@@ -1,0 +1,11 @@
+    public static boolean isLeapYear(int year) {
+        return Year.isLeap(year);
+    }
+
+    public static int dayCount(int year) {
+        if (isLeapYear(year)) {
+            return 366;
+        }
+        return 365;
+    }
+}
